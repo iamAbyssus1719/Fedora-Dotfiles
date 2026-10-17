@@ -1,0 +1,53 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+	
+	"logo": {
+        "source": "/home/abyssus1719/.config/fastfetch/logos/logo.txt",
+        "color": {
+            "1": "94" // El código 94 es el azul claro/bajo de terminal. No deforma nada.
+        },
+        "padding": {
+            "top": 1,
+            "right": 4
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[1;34miamAbyssus1719\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[1m────────────────────────\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[1mFedora Linux 44\u001b[0m"
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "format": "\u001b[1m{2}\u001b[0m"
+        },
+        {
+            "type": "packages",
+            "key": " ",
+            "format": "\u001b[1m{1} (rpm)\u001b[0m"
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "format": "\u001b[1m{2}h {3}m\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[1m────────────────────────\u001b[0m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[1;30m▄▄ \u001b[1;31m▄▄ \u001b[1;32m▄▄ \u001b[1;33m▄▄ \u001b[1;34m▄▄ \u001b[1;35m▄▄ \u001b[1;36m▄▄ \u001b[1;37m▄▄\u001b[0m"
+        },
+        "break"
+    ]
+}

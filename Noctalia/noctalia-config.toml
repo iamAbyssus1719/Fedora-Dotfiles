@@ -1,0 +1,466 @@
+[bar.default]
+center = [ "audio_visualizer", "text_19", "clock", "text_2", "date", "text_20", "audio_visualizer" ]
+end = [ "group:g1", "group:g2", "group:g3", "group:g4", "group:g8" ]
+font_family = "Inconsolata ExtraBold"
+radius_bottom_left = 80
+radius_bottom_right = 80
+radius_top_left = 0
+radius_top_right = 0
+start = [ "text_15", "launcher", "text_16", "group:g5", "group:g6", "group:g7" ]
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g1"
+    members = [ "text_3", "battery", "text_4" ]
+    opacity = 1.0
+    padding = 0.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g2"
+    members = [ "text_5", "bluetooth", "text_6" ]
+    opacity = 1.0
+    padding = 6.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g3"
+    members = [ "text_7", "volume", "text_8" ]
+    opacity = 1.0
+    padding = 6.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g4"
+    members = [ "text_9", "network", "text_10" ]
+    opacity = 1.0
+    padding = 6.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g5"
+    members = [ "text_11", "cpu", "text_12" ]
+    opacity = 1.0
+    padding = 6.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g6"
+    members = [ "text_13", "sysmon", "text_14" ]
+    opacity = 1.0
+    padding = 6.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g7"
+    members = [ "text_17", "session", "text_18" ]
+    opacity = 1.0
+    padding = 6.0
+
+    [[bar.default.capsule_group]]
+    accordion = false
+    accordion_direction = "end"
+    enabled = true
+    fill = "on_primary"
+    id = "g8"
+    members = [ "text_21", "control-center", "text_22" ]
+    opacity = 1.0
+    padding = 6.0
+
+[calendar]
+
+[control_center]
+sidebar = "none"
+sidebar_section = "none"
+width = 600
+
+    [control_center.calendar]
+    show_events_card = false
+
+[desktop_widgets]
+schema_version = 2
+widget_order = []
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget]
+
+[location]
+address = "Cacalchén, Yucatán"
+
+[lockscreen_widgets]
+enabled = false
+schema_version = 2
+widget_order = [
+    "lockscreen-login-box@FALLBACK",
+    "lockscreen-login-box@DP-2",
+    "lockscreen-login-box@HDMI-A-1",
+    "lockscreen-login-box@eDP-1"
+]
+
+    [lockscreen_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@DP-2"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 540.0
+    cy = 1738.0
+    output = "DP-2"
+    placement_height = 1920.0
+    placement_width = 1080.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@DP-2".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@FALLBACK"]
+    box_height = 196.0
+    box_width = 810.0
+    cx = 960.0
+    cy = 898.0
+    output = "FALLBACK"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@FALLBACK".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1"]
+    box_height = 196.0
+    box_width = 720.0
+    cx = 960.0
+    cy = 898.0
+    output = "HDMI-A-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@HDMI-A-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 196.0
+    box_width = 720.0
+    cx = 960.0
+    cy = 898.0
+    output = "eDP-1"
+    placement_height = 1080.0
+    placement_width = 1920.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.88
+        background_radius = 12.0
+        center_password_text = false
+        input_opacity = 1.0
+        input_radius = 6.0
+        layout = "regular"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+[plugins]
+enabled = []
+
+[shell]
+avatar_path = "/home/abyssus1719/Escritorio/Hyprland-Fedora/Yuki.jpeg"
+font_family = "Inconsolata ExtraBold"
+password_style = "random"
+settings_window_translucent = true
+
+    [shell.launcher]
+    app_grid = true
+    categories = false
+    show_app_actions = true
+
+    [shell.panel]
+    launcher_placement = "attached"
+    open_near_click_control_center = true
+    open_near_click_launcher = true
+    open_near_click_session = true
+
+    [shell.screen_corners]
+    enabled = true
+
+[theme]
+builtin = "Gruvbox"
+shell_mode = "dark"
+
+[wallpaper]
+directory = "/home/abyssus1719/Imágenes/Wallpapers"
+
+    [wallpaper.default]
+    path = "/home/abyssus1719/Imágenes/Wallpapers/Green.jpg"
+
+    [wallpaper.last]
+    path = "/home/abyssus1719/Imágenes/Wallpapers/Green.jpg"
+
+    [wallpaper.monitors.DP-2]
+    path = "/home/abyssus1719/Imágenes/Wallpapers/Green.jpg"
+
+    [wallpaper.monitors.HDMI-A-1]
+    path = "/home/abyssus1719/Imágenes/Wallpapers/Green.jpg"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/abyssus1719/Imágenes/Wallpapers/Green.jpg"
+
+[widget.audio_visualizer]
+bands = 50
+color_1 = "error"
+color_2 = "error"
+enabled = false
+show_when_idle = true
+width = 220
+
+[widget.battery]
+anchor = true
+color = "#FABD2F"
+icon_color = "#FABD2F"
+
+[widget.bluetooth]
+color = "#689D6A"
+icon_color = "#689D6A"
+
+[widget.clock]
+icon_color = "#EBDBB2"
+
+[widget.control-center]
+color = "#83A598"
+icon_color = "#83A598"
+
+[widget.cpu]
+color = "#83A598"
+icon_color = "#83A598"
+visualization = "graph"
+
+[widget.launcher]
+color = "#B8BB26"
+glyph = "cannabis"
+scale = 1.25
+
+[widget.network]
+color = "#D65D0E"
+font_scale = 0.69999999999999996
+icon_color = "#D65D0E"
+scale = 1.3
+
+[widget.session]
+color = "#FB4934"
+glyph = "biohazard"
+icon_color = "#FB4934"
+scale = 1.2
+
+[widget.sysmon]
+color = "#83A598"
+icon_color = "#83A598"
+stat = "disk_used"
+visualization = "graph"
+
+[widget.text_10]
+color = "#D65D0E"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_11]
+color = "#83A598"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_12]
+color = "#83A598"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_13]
+color = "#83A598"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_14]
+color = "#83A598"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_15]
+color = "#B8BB26"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_16]
+color = "#B8BB26"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_17]
+color = "#FB4934"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_18]
+color = "#FB4934"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_19]
+color = "on_surface_variant"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_2]
+text = "-"
+type = "text"
+
+[widget.text_20]
+color = "on_surface"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_21]
+color = "#83A598"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_22]
+color = "#83A598"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_3]
+color = "#FABD2F"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_4]
+color = "#FABD2F"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_5]
+color = "#689D6A"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_6]
+color = "#689D6A"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_7]
+color = "#D3869B"
+interactive = false
+text = "["
+type = "text"
+
+[widget.text_8]
+color = "#D3869B"
+interactive = false
+text = "]"
+type = "text"
+
+[widget.text_9]
+color = "#D65D0E"
+interactive = false
+text = "["
+type = "text"
+
+[widget.volume]
+color = "#D3869B"
+icon_color = "#D3869B"
+scale = 0.94999999999999996
+
+[widget.workspaces]
+empty_color = "on_surface_variant"
+scale = 0.80000000000000004
